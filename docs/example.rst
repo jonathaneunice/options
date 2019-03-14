@@ -23,7 +23,7 @@ give it a shot.
 
         def draw(self, **kwargs):
             opts = self.options.push(kwargs)
-            print attrs(opts)
+            print(attrs(opts))
 
     one = Shape(name='one')
     one.draw()
@@ -54,7 +54,7 @@ but when we got to the ``draw`` method, things would be quite a bit messier.::
             color  = kwargs.get('color',  self.color)
             height = kwargs.get('height', self.height)
             width  = kwargs.get('width',  self.width)
-            print "color={0!r}, width={1}, name={2!r}, height={3}".format(color, width, name, height)
+            print("color={0!r}, width={1}, name={2!r}, height={3}".format(color, width, name, height))
 
 One problem here is that we broke apart the values provided to
 ``__init__()`` into separate instance variables, now we need to
@@ -68,7 +68,7 @@ using native keyword arguments, is no better::
             color  = color  or self.color
             height = height or self.height
             width  = width  or self.width
-            print "color={0!r}, width={1}, name={2!r}, height={3}".format(color, width, name, height)
+            print("color={0!r}, width={1}, name={2!r}, height={3}".format(color, width, name, height))
 
 If we add just a few more instance variables, we've arrived at the `Mr.
 Creosote <http://en.wikipedia.org/wiki/Mr_Creosote>`_ of class design. For
@@ -176,9 +176,8 @@ yields::
 
 Neat, huh?
 
-For more backstory, see `this StackOverflow.com discussion of how to combat "configuration
-sprawl"
+For more backstory, see `this StackOverflow.com discussion of how to combat
+"configuration sprawl"
 <http://stackoverflow.com/questions/11702437/where-to-keep-options-values-paths-to-important-files-etc/11703813#11703813>`_.
-For examples of ``options`` in use, see `say
-<https://pypi.python.org/pypi/say>`_ and `show
-<https://pypi.python.org/pypi/show>`_.
+For examples of ``options`` in use, see `say <https://pypi.org/project/say/>`_
+and `show <https://pypi.org/project/show>`_.

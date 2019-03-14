@@ -33,8 +33,8 @@ in contrast, seamlessly connects all of these varied layers and cases.
 For more backstory, see `this StackOverflow.com discussion of how to combat "configuration sprawl"
 <http://stackoverflow.com/questions/11702437/where-to-keep-options-values-paths-to-important-files-etc/11703813#11703813>`_.
 For examples of ``options``
-in use, see `say <https://pypi.python.org/pypi/say>`_, `quoter <https://pypi.python.org/pypi/quoter>`_,
-and `show <https://pypi.python.org/pypi/show>`_.
+in use, see `say <https://pypi.org/project/say>`_, `quoter <https://pypi.org/project/quoter>`_,
+and `show <https://pypi.org/project/show>`_.
 
 
 .. toctree::

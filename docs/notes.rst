@@ -2,11 +2,11 @@ Notes
 =====
 
 * Automated multi-version testing managed with
-  `pytest <http://pypi.python.org/pypi/pytest>`_,
-  `pytest-cov <http://pypi.python.org/pypi/pytest-cov>`_,
-  `coverage <https://pypi.python.org/pypi/coverage/4.0b1>`_, and
-  `tox <http://pypi.python.org/pypi/tox>`_.
-  Packaging linting with `pyroma <https://pypi.python.org/pypi/pyroma>`_.
+  `pytest <http://pypi.org/project/pytest>`_,
+  `pytest-cov <http://pypi.org/project/pytest-cov>`_,
+  `coverage <https://pypi.org/project/coverage/4.0b1>`_, and
+  `tox <http://pypi.org/project/tox>`_.
+  Packaging linting with `pyroma <https://pypi.org/project/pyroma>`_.
 
 * Version 1.4.4 updates testing for early 2017 Python
   versions. Successfully packaged for, and

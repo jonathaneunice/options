@@ -1,6 +1,16 @@
 Change Log
 ==========
 
+**1.4.9**  (March 14, 2019)
+
+    Refresh testing matrix, pushing older version testing to Travis CI
+    and adding Python 3.6 and 3.7 as primary testing platforms.
+
+    Freshened/updated requirements, esp. for chainmap.
+
+    Updated docs, e.g. with new PyPI URL.
+
+
 **1.4.7**  (May 15, 2017)
 
     More updates to method update scheme.
@@ -44,8 +54,8 @@ Change Log
 
     Systematic enough change that by traditional versioning standards
     this would be a 2.0 release. But following Semantic Versioning,
-    while the class structure changes, the effective  API seen by
-    using modules does not change, so 1.4.0 is enough.
+    while the class structure changes, the effective API seen by using
+    modules does not change, so 1.4.0 is enough.
 
     Correctness of this systematic roto-tilling confirmed by test
     suite. Testing now extended to 100% line coverage (and 99% branch

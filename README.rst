@@ -3,31 +3,31 @@
 
 .. |version| image:: http://img.shields.io/pypi/v/options.svg?style=flat
     :alt: PyPI Package latest release
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |downloads| image:: http://img.shields.io/pypi/dm/options.svg?style=flat
     :alt: PyPI Package monthly downloads
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |versions| image:: https://img.shields.io/pypi/pyversions/options.svg
     :alt: Supported versions
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |impls| image:: https://img.shields.io/pypi/implementation/options.svg
     :alt: Supported implementations
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/options.svg
     :alt: Wheel packaging support
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |coverage| image:: https://img.shields.io/badge/test_coverage-100%25-6600CC.svg
     :alt: Test line coverage
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 .. |br-coverage| image:: https://img.shields.io/badge/branch_coverage-99%25-blue.svg
     :alt: Test branch coverage
-    :target: https://pypi.python.org/pypi/options
+    :target: https://pypi.org/project/options
 
 ``options`` helps represent option and configuration data in a clean,
 high-function way. Changes can "overlay" defaults or earlier settings.
@@ -64,6 +64,6 @@ For more backstory, see `this StackOverflow.com discussion of how to combat "con
 <http://stackoverflow.com/questions/11702437/where-to-keep-options-values-paths-to-important-files-etc/11703813#11703813>`_.
 ``options`` full documentation
 can be found at `Read the Docs <http://options.readthedocs.org/en/latest/>`_. For examples of ``options``
-in use, see `say <https://pypi.python.org/pypi/say>`_ and `show <https://pypi.python.org/pypi/show>`_.
+in use, see `say <https://pypi.org/project/say>`_ and `show <https://pypi.org/project/show>`_.
 
 

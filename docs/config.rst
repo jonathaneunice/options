@@ -20,5 +20,3 @@ Or for YAML::
 At a higher level, ``Options`` objects contain a ``write`` method
 that will directly write the object to a JSON file, and a ``read``
 class method that will construct an ``Options`` object from a JSON file.
-
-

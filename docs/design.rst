@@ -31,7 +31,7 @@ function ``attrs``, we might have designed our own::
 
     def draw(self, **kwargs):
         opts = self.options.push(kwargs)
-        print self._attrs(opts)
+        print(self._attrs(opts))
 
 ``draw()``, being the outward-facing API, accepts general arguments and
 manages their stacking (by ``push``ing ``kwargs`` onto the instance options).

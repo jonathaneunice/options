@@ -8,7 +8,7 @@ import sys
 def lines(text):
     """
     Returns each non-blank line in text enclosed in a list.
-    See http://pypi.python.org/pypi/textdata for more sophisticated version.
+    See http://pypi.org/project/textdata for more sophisticated version.
     """
     return [l.strip() for l in text.strip().splitlines() if l.strip()]
 
