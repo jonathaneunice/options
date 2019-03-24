@@ -1,6 +1,13 @@
 Change Log
 ==========
 
+**1.4.10**  (March 23, 2019)
+
+    Last notable Python 2-compatible release. Any further Python
+    2-compatible hotfixes will have version 1.4.x with x > 10, so
+    requirement specification ``options~=1.4.10``.
+
+
 **1.4.9**  (March 14, 2019)
 
     Refresh testing matrix, pushing older version testing to Travis CI

@@ -12,10 +12,12 @@ def lines(text):
     """
     return [l.strip() for l in text.strip().splitlines() if l.strip()]
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
 setup(
     name='options',
-    version='1.4.9',
+    version='1.4.10',
     author='Jonathan Eunice',
     author_email='jonathan.eunice@gmail.com',
     description='Simple, super-flexible options. Does magic upon request.',
@@ -24,10 +26,7 @@ setup(
     license='Apache License 2.0',
     packages=['options'],
     setup_requires=[],
-    install_requires=['chainmap>=1.0.2',
-                      'six>=1.10.0',
-                      'nulltype>=2.2.9',
-                      'combomethod>=1.0.7'],
+    install_requires=requirements,
     tests_require = ['tox', 'pytest', 'pytest-cov', 'coverage', 'six'],
     test_suite="test",
     zip_safe=False,

@@ -1,6 +1,10 @@
 """Options"""
 
 import sys
+from copy import copy
+
+from combomethod import combomethod
+from nulltype import NullType
 
 # from collections import OrderedDict  #, chainstuf
 # temporarily pulled stuf version of chainstuf in favor of
@@ -8,11 +12,7 @@ import sys
 # tracked down and fixed
 from .chainstuf import chainstuf
 from .config import read_dict, write_dict
-from nulltype import NullType
 from .funclike import *
-from combomethod import combomethod
-from copy import copy
-
 
 # Sentinels
 Unset      = NullType('Unset')

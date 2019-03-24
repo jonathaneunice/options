@@ -1,4 +1,12 @@
 -
+  version: 1.4.10
+  date: March 23, 2019
+  notes: >
+    Last notable Python 2-compatible release. Any further
+    Python 2-compatible hotfixes will have version 1.4.x with
+    x > 10, so requirement specification ``options~=1.4.10``.
+
+-
   version: 1.4.9
   date: March 14, 2019
   notes: >
