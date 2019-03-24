@@ -6,6 +6,9 @@
     Python 2-compatible hotfixes will have version 1.4.x with
     x > 10, so requirement specification ``options~=1.4.10``.
 
+    This release also drops Python 3.3, which is past its EOL
+    and no longer testable.
+
 -
   version: 1.4.9
   date: March 14, 2019

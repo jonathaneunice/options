@@ -66,4 +66,8 @@ For more backstory, see `this StackOverflow.com discussion of how to combat "con
 can be found at `Read the Docs <http://options.readthedocs.org/en/latest/>`_. For examples of ``options``
 in use, see `say <https://pypi.org/project/say>`_ and `show <https://pypi.org/project/show>`_.
 
+Notes
+-----
 
+* Version 1.4.* is the last to support Python versions < 3.6. Time to
+  upgrade and move to the modern age!
